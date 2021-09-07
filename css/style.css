@@ -31,40 +31,64 @@
 }
 
 .hero-container{
-    position: relative;
-    padding-bottom: 50px;
-    padding-top: 20px;
+    position: relative;    
 }
 
-.hero-image{
+.hero-image{ /*ok*/
     height: 600px;
     background-image: url(../img/banner.jpg);
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
 
-#navigatore {
-    margin-left: -10px;
+.overlay { /*sfondo nero immagine*/
+    background-color: rgba(0, 0, 0, 0.479);
 }
 
-.container-scritte-hero {
-    
-}
+.overlay:after{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.281);
+    border-radius: 10px;
+    position: absolute; 
+    top:0; 
+    left:0;
+    right: 0;
+    bottom: 0;
 
+}
 
 .scritte-hero{
-    width: 50%;
+    width: 40%;
     position: absolute;
-    bottom: 150px;
+    bottom: 90px;
     left: 60px;
     color: white;
+    z-index: 1;
 }
 
-.overlay-img {
-    background-color: rgba(0, 0, 0, 0.479);
-    display: inline-block;
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+section{
+    width: 70%;
+    margin: auto;
+}
+
+
+.section-container{
+    padding-top: 40px;
+}
+
+.scrittagrigia {
+    color: gray;
+}
+
+h1 {
+font-size: 40px;
 }
 
 a {
@@ -80,3 +104,17 @@ ul>li {
 }
 
 
+
+
+
+.colonna {
+    background-color: lightskyblue;
+    float: left;
+    width: 20%;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#navigatore {
+    margin-left: -10px;
+}
