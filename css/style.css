@@ -7,7 +7,7 @@
 }
 
 .header-container {
-    width: 80%;
+    width: 70%;
     margin: auto;
     margin-bottom: 20px;
 }
@@ -20,13 +20,51 @@
 }
 
 .nav-container {
-    width: 80%;
+    width: 70%;
     margin: auto;
 
 }
 
+.main-container {
+    width: 70%;
+    margin: auto;
+}
+
+.hero-container{
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.hero-image{
+    height: 600px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
 #navigatore {
     margin-left: -10px;
+}
+
+.container-scritte-hero {
+    
+}
+
+
+.scritte-hero{
+    width: 50%;
+    position: absolute;
+    bottom: 150px;
+    left: 60px;
+    color: white;
+}
+
+.overlay-img {
+    background-color: rgba(0, 0, 0, 0.479);
+    display: inline-block;
 }
 
 a {
@@ -40,3 +78,5 @@ a {
 ul>li {
     display: inline-block;
 }
+
+
