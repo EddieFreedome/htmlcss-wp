@@ -73,11 +73,6 @@ h2 {
     padding-bottom: 5px;
 }
 
-section{
-    width: 70%;
-    margin: auto;
-}
-
 
 .section-container{
     padding-top: 40px;
@@ -104,16 +99,44 @@ ul>li {
 }
 
 
-
-
-
 .colonna {
-    background-color: lightskyblue;
     float: left;
-    width: 20%;
-    height: 350px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    
+}
+
+.laterale{
+    width: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.centrale{
+    width: 36%;
+    padding: 10px 2%;
+
+}
+
+/*.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 5px;
+}*/
+
+.column-container:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img-colonna{
+    height: 200px;
+}
+
+img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
 }
 #navigatore {
     margin-left: -10px;
