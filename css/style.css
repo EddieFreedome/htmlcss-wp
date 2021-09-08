@@ -38,6 +38,12 @@ span{
     color: red;
 }
 
+nav ul li a:hover{
+color: black;
+background-color: rgba(222, 184, 135, 0.322);
+border-radius: 3px;
+}
+
 .header-container {
     width: 70%;
     margin: auto;
